@@ -6,4 +6,12 @@ fetch('https://dummyjson.com/posts')
 
 }
 
+async function getPosts() {
+
+//querySelector - selects the very first element
+let postNumber = document.querySelector('input').valueAsNumber
+
+}
+
 main();
+getPosts();
